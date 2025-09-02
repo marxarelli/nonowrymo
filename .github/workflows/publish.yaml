@@ -34,4 +34,7 @@ jobs:
         run: aws s3 sync ./public/ s3://nonowrymo.mutual.io --delete
 
       - name: Invalidate CloudFront
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.LIVE_AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+        run: >-
+          aws cloudfront create-invalidation
+          --distribution-id ${{ secrets.LIVE_AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          --paths '/*'
