@@ -3,9 +3,9 @@ paths:
   uploads: static/uploads
   static: static
 collections_config:
-  content_posts:
+  posts:
     path: content/posts
-    name: Content Posts
+    name: Posts
     icon: content_paste
     disable_url: false
     disable_add: false
