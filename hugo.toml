@@ -2,10 +2,3 @@ baseURL = 'https://nonowrymo.mutual.io/'
 languageCode = 'en-us'
 title = 'Notional Nobility Wryness Month'
 theme = 'PaperMod'
-
-[deployment]
-
-[[deployment.targets]]
-name = 'live'
-url = 's3://nonowrymo.mutual.io?region=us-east-1'
-cloudFrontDistributionID = 'E11ZN060DXJVTP'
