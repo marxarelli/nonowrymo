@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notional Nobility Wryness Month</title>
-    <link>https://nonowrymo.mutual.io/</link>
-    <description>Recent content on Notional Nobility Wryness Month</description>
+    <title>Posts on Notional Nobility Wryness Month</title>
+    <link>https://nonowrymo.mutual.io/posts/</link>
+    <description>Recent content in Posts on Notional Nobility Wryness Month</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 18:03:43 -0700</lastBuildDate>
-    <atom:link href="https://nonowrymo.mutual.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nonowrymo.mutual.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>https://nonowrymo.mutual.io/posts/first-post/</link>
