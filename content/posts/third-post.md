@@ -5,4 +5,4 @@ title = "Third Post"
 +++
 ## Third Post
 
-Another one.
+Another one. This is the third post.
