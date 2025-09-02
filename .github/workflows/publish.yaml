@@ -30,5 +30,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.LIVE_AWS_SECRET_KEY }}
           aws-region: us-east-1
 
-      - name: Deploy Site
-        run: hugo deploy
+      - name: Publish public files
+        run: aws s3 sync ./public/ s3://nonowrymo.mutual.io --delete
+
+      - name: Invalidate CloudFront
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.LIVE_AWS_CLOUDFRONT_DISTRIBUTION_ID }}
